@@ -14,6 +14,9 @@ const createWindow = () => {
     autoHideMenuBar: true,
   });
 
+  // maximize window after creating it
+  win.maximize();
+
   // loading react page in window
   win.loadURL('http://localhost:3000');
 
